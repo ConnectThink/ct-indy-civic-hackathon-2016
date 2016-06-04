@@ -13,7 +13,36 @@
 		665A9DA91D032CBB001BA592 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665A9DA71D032CBB001BA592 /* Main.storyboard */; };
 		665A9DAB1D032CBB001BA592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 665A9DAA1D032CBB001BA592 /* Assets.xcassets */; };
 		665A9DAE1D032CBB001BA592 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665A9DAC1D032CBB001BA592 /* LaunchScreen.storyboard */; };
+		665A9DBD1D033157001BA592 /* indytransitkit.h in Headers */ = {isa = PBXBuildFile; fileRef = 665A9DBC1D033157001BA592 /* indytransitkit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665A9DC11D033157001BA592 /* indytransitkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665A9DBA1D033157001BA592 /* indytransitkit.framework */; };
+		665A9DC21D033157001BA592 /* indytransitkit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 665A9DBA1D033157001BA592 /* indytransitkit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		665A9DC81D033249001BA592 /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DC71D033249001BA592 /* TestModel.swift */; };
+		AD2C9BE617ADAFDB5D293524 /* Pods_indytransitkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B1F447F7E8B3515A74DB8F /* Pods_indytransitkit.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		665A9DBF1D033157001BA592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 665A9D981D032CBB001BA592 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 665A9DB91D033157001BA592;
+			remoteInfo = indytransitkit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		665A9DC61D033157001BA592 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				665A9DC21D033157001BA592 /* indytransitkit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		00F46C310933821C19F96DC8 /* Pods-indycivichackathon2016.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-indycivichackathon2016.release.xcconfig"; path = "Pods/Target Support Files/Pods-indycivichackathon2016/Pods-indycivichackathon2016.release.xcconfig"; sourceTree = "<group>"; };
@@ -24,7 +53,14 @@
 		665A9DAA1D032CBB001BA592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		665A9DAD1D032CBB001BA592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		665A9DAF1D032CBB001BA592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		665A9DBA1D033157001BA592 /* indytransitkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = indytransitkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		665A9DBC1D033157001BA592 /* indytransitkit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = indytransitkit.h; sourceTree = "<group>"; };
+		665A9DBE1D033157001BA592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		665A9DC71D033249001BA592 /* TestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
+		6E7874024E7D7D58CA240602 /* Pods-indytransitkit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-indytransitkit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-indytransitkit/Pods-indytransitkit.debug.xcconfig"; sourceTree = "<group>"; };
 		739E10EDC2B1EA71F4A673C0 /* Pods-indycivichackathon2016.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-indycivichackathon2016.debug.xcconfig"; path = "Pods/Target Support Files/Pods-indycivichackathon2016/Pods-indycivichackathon2016.debug.xcconfig"; sourceTree = "<group>"; };
+		B44B5BEE8E268B5D8F044A94 /* Pods-indytransitkit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-indytransitkit.release.xcconfig"; path = "Pods/Target Support Files/Pods-indytransitkit/Pods-indytransitkit.release.xcconfig"; sourceTree = "<group>"; };
+		C9B1F447F7E8B3515A74DB8F /* Pods_indytransitkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_indytransitkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1299BC762099538EBD8D2BE /* Pods_indycivichackathon2016.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_indycivichackathon2016.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -34,6 +70,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BAC2F4AD7294C55804BAA77 /* Pods_indycivichackathon2016.framework in Frameworks */,
+				665A9DC11D033157001BA592 /* indytransitkit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		665A9DB61D033157001BA592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD2C9BE617ADAFDB5D293524 /* Pods_indytransitkit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +90,8 @@
 			children = (
 				739E10EDC2B1EA71F4A673C0 /* Pods-indycivichackathon2016.debug.xcconfig */,
 				00F46C310933821C19F96DC8 /* Pods-indycivichackathon2016.release.xcconfig */,
+				6E7874024E7D7D58CA240602 /* Pods-indytransitkit.debug.xcconfig */,
+				B44B5BEE8E268B5D8F044A94 /* Pods-indytransitkit.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -52,7 +99,8 @@
 		665A9D971D032CBB001BA592 = {
 			isa = PBXGroup;
 			children = (
-				665A9DA21D032CBB001BA592 /* indycivichackathon2016 */,
+				665A9DA21D032CBB001BA592 /* indytransitapp */,
+				665A9DBB1D033157001BA592 /* indytransitkit */,
 				665A9DA11D032CBB001BA592 /* Products */,
 				53624467A546A71BEDD36E1E /* Pods */,
 				D13FEC11F1E11D5527DCB176 /* Frameworks */,
@@ -63,11 +111,12 @@
 			isa = PBXGroup;
 			children = (
 				665A9DA01D032CBB001BA592 /* indycivichackathon2016.app */,
+				665A9DBA1D033157001BA592 /* indytransitkit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		665A9DA21D032CBB001BA592 /* indycivichackathon2016 */ = {
+		665A9DA21D032CBB001BA592 /* indytransitapp */ = {
 			isa = PBXGroup;
 			children = (
 				665A9DA31D032CBB001BA592 /* AppDelegate.swift */,
@@ -77,18 +126,41 @@
 				665A9DAC1D032CBB001BA592 /* LaunchScreen.storyboard */,
 				665A9DAF1D032CBB001BA592 /* Info.plist */,
 			);
+			name = indytransitapp;
 			path = indycivichackathon2016;
+			sourceTree = "<group>";
+		};
+		665A9DBB1D033157001BA592 /* indytransitkit */ = {
+			isa = PBXGroup;
+			children = (
+				665A9DBC1D033157001BA592 /* indytransitkit.h */,
+				665A9DBE1D033157001BA592 /* Info.plist */,
+				665A9DC71D033249001BA592 /* TestModel.swift */,
+			);
+			path = indytransitkit;
 			sourceTree = "<group>";
 		};
 		D13FEC11F1E11D5527DCB176 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				F1299BC762099538EBD8D2BE /* Pods_indycivichackathon2016.framework */,
+				C9B1F447F7E8B3515A74DB8F /* Pods_indytransitkit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		665A9DB71D033157001BA592 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665A9DBD1D033157001BA592 /* indytransitkit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		665A9D9F1D032CBB001BA592 /* indycivichackathon2016 */ = {
@@ -101,15 +173,37 @@
 				665A9D9E1D032CBB001BA592 /* Resources */,
 				497FF8882FFDE280CED5CCC7 /* [CP] Embed Pods Frameworks */,
 				FA7006B5F753093015968A51 /* [CP] Copy Pods Resources */,
+				665A9DC61D033157001BA592 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				665A9DC01D033157001BA592 /* PBXTargetDependency */,
 			);
 			name = indycivichackathon2016;
 			productName = indycivichackathon2016;
 			productReference = 665A9DA01D032CBB001BA592 /* indycivichackathon2016.app */;
 			productType = "com.apple.product-type.application";
+		};
+		665A9DB91D033157001BA592 /* indytransitkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 665A9DC51D033157001BA592 /* Build configuration list for PBXNativeTarget "indytransitkit" */;
+			buildPhases = (
+				6891E1A57C4663A2524FD9B7 /* [CP] Check Pods Manifest.lock */,
+				665A9DB51D033157001BA592 /* Sources */,
+				665A9DB61D033157001BA592 /* Frameworks */,
+				665A9DB71D033157001BA592 /* Headers */,
+				665A9DB81D033157001BA592 /* Resources */,
+				7296B514814BCECFFD73E136 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = indytransitkit;
+			productName = indytransitkit;
+			productReference = 665A9DBA1D033157001BA592 /* indytransitkit.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -122,6 +216,9 @@
 				ORGANIZATIONNAME = "Connect Think LLC";
 				TargetAttributes = {
 					665A9D9F1D032CBB001BA592 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					665A9DB91D033157001BA592 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
@@ -140,6 +237,7 @@
 			projectRoot = "";
 			targets = (
 				665A9D9F1D032CBB001BA592 /* indycivichackathon2016 */,
+				665A9DB91D033157001BA592 /* indytransitkit */,
 			);
 		};
 /* End PBXProject section */
@@ -152,6 +250,13 @@
 				665A9DAE1D032CBB001BA592 /* LaunchScreen.storyboard in Resources */,
 				665A9DAB1D032CBB001BA592 /* Assets.xcassets in Resources */,
 				665A9DA91D032CBB001BA592 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		665A9DB81D033157001BA592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +293,36 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-indycivichackathon2016/Pods-indycivichackathon2016-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		6891E1A57C4663A2524FD9B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7296B514814BCECFFD73E136 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-indytransitkit/Pods-indytransitkit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FA7006B5F753093015968A51 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -215,7 +350,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		665A9DB51D033157001BA592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665A9DC81D033249001BA592 /* TestModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		665A9DC01D033157001BA592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 665A9DB91D033157001BA592 /* indytransitkit */;
+			targetProxy = 665A9DBF1D033157001BA592 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		665A9DA71D032CBB001BA592 /* Main.storyboard */ = {
@@ -325,6 +476,7 @@
 			baseConfigurationReference = 739E10EDC2B1EA71F4A673C0 /* Pods-indycivichackathon2016.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = indycivichackathon2016/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.connectthink.indycivichackathon2016;
@@ -337,10 +489,56 @@
 			baseConfigurationReference = 00F46C310933821C19F96DC8 /* Pods-indycivichackathon2016.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = indycivichackathon2016/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.connectthink.indycivichackathon2016;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		665A9DC31D033157001BA592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E7874024E7D7D58CA240602 /* Pods-indytransitkit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = indytransitkit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.connectthink.indytransitkit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		665A9DC41D033157001BA592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B44B5BEE8E268B5D8F044A94 /* Pods-indytransitkit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = indytransitkit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.connectthink.indytransitkit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -361,6 +559,15 @@
 			buildConfigurations = (
 				665A9DB31D032CBB001BA592 /* Debug */,
 				665A9DB41D032CBB001BA592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		665A9DC51D033157001BA592 /* Build configuration list for PBXNativeTarget "indytransitkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665A9DC31D033157001BA592 /* Debug */,
+				665A9DC41D033157001BA592 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

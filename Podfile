@@ -7,3 +7,10 @@ target 'indycivichackathon2016' do
   pod 'ObjectMapper', '~> 1.3'
   pod 'SQLite.swift', '~> 0.10'
 end
+
+target 'indytransitkit' do
+  use_frameworks!
+
+  pod 'ObjectMapper', '~> 1.3'
+  pod 'SQLite.swift', '~> 0.10'
+end
