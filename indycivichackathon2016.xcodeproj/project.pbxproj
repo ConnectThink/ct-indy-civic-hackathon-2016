@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42265B521D03365B00CCE444 /* BikeStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42265B511D03365B00CCE444 /* BikeStation.swift */; };
 		4BAC2F4AD7294C55804BAA77 /* Pods_indycivichackathon2016.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1299BC762099538EBD8D2BE /* Pods_indycivichackathon2016.framework */; };
 		665A9DA41D032CBB001BA592 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DA31D032CBB001BA592 /* AppDelegate.swift */; };
 		665A9DA61D032CBB001BA592 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DA51D032CBB001BA592 /* ViewController.swift */; };
@@ -16,7 +17,6 @@
 		665A9DBD1D033157001BA592 /* indytransitkit.h in Headers */ = {isa = PBXBuildFile; fileRef = 665A9DBC1D033157001BA592 /* indytransitkit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		665A9DC11D033157001BA592 /* indytransitkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665A9DBA1D033157001BA592 /* indytransitkit.framework */; };
 		665A9DC21D033157001BA592 /* indytransitkit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 665A9DBA1D033157001BA592 /* indytransitkit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		665A9DC81D033249001BA592 /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DC71D033249001BA592 /* TestModel.swift */; };
 		665A9DD41D033425001BA592 /* Agency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DD31D033425001BA592 /* Agency.swift */; };
 		665A9DD51D033425001BA592 /* Agency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DD31D033425001BA592 /* Agency.swift */; };
 		665A9DD71D033436001BA592 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DD61D033436001BA592 /* Calendar.swift */; };
@@ -66,6 +66,7 @@
 
 /* Begin PBXFileReference section */
 		00F46C310933821C19F96DC8 /* Pods-indycivichackathon2016.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-indycivichackathon2016.release.xcconfig"; path = "Pods/Target Support Files/Pods-indycivichackathon2016/Pods-indycivichackathon2016.release.xcconfig"; sourceTree = "<group>"; };
+		42265B511D03365B00CCE444 /* BikeStation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BikeStation.swift; sourceTree = "<group>"; };
 		665A9DA01D032CBB001BA592 /* indycivichackathon2016.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = indycivichackathon2016.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		665A9DA31D032CBB001BA592 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		665A9DA51D032CBB001BA592 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,7 +77,6 @@
 		665A9DBA1D033157001BA592 /* indytransitkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = indytransitkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		665A9DBC1D033157001BA592 /* indytransitkit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = indytransitkit.h; sourceTree = "<group>"; };
 		665A9DBE1D033157001BA592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		665A9DC71D033249001BA592 /* TestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
 		665A9DD31D033425001BA592 /* Agency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Agency.swift; sourceTree = "<group>"; };
 		665A9DD61D033436001BA592 /* Calendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
 		665A9DD91D033440001BA592 /* CalendarDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarDate.swift; sourceTree = "<group>"; };
@@ -173,7 +173,7 @@
 		665A9DC91D03332A001BA592 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				665A9DC71D033249001BA592 /* TestModel.swift */,
+				42265B511D03365B00CCE444 /* BikeStation.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -489,8 +489,8 @@
 				665A9DD51D033425001BA592 /* Agency.swift in Sources */,
 				665A9DDB1D033440001BA592 /* CalendarDate.swift in Sources */,
 				665A9DDE1D033449001BA592 /* FareAttribute.swift in Sources */,
+				42265B521D03365B00CCE444 /* BikeStation.swift in Sources */,
 				665A9DD81D033436001BA592 /* Calendar.swift in Sources */,
-				665A9DC81D033249001BA592 /* TestModel.swift in Sources */,
 				665A9DE41D033456001BA592 /* Route.swift in Sources */,
 				665A9DEA1D033462001BA592 /* StopTime.swift in Sources */,
 				665A9DED1D033468001BA592 /* Stop.swift in Sources */,
