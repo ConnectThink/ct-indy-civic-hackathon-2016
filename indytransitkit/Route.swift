@@ -9,9 +9,9 @@
 import Foundation
 
 public struct Route {
-    public var routeLongName = "ERROR"
-    public var routeType = -1
+    public var longName = "ERROR"
+    public var type = -1
     public var agencyId = "ERROR"
-    public var routeId = -1
-    public var routeShortName = "ERROR"
+    public var id = -1
+    public var shortName = "ERROR"
 }

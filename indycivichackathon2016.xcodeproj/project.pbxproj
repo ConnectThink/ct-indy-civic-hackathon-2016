@@ -17,26 +17,20 @@
 		665A9DC11D033157001BA592 /* indytransitkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665A9DBA1D033157001BA592 /* indytransitkit.framework */; };
 		665A9DC21D033157001BA592 /* indytransitkit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 665A9DBA1D033157001BA592 /* indytransitkit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		665A9DC81D033249001BA592 /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DC71D033249001BA592 /* TestModel.swift */; };
-		665A9DD41D033425001BA592 /* Agency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DD31D033425001BA592 /* Agency.swift */; };
 		665A9DD51D033425001BA592 /* Agency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DD31D033425001BA592 /* Agency.swift */; };
-		665A9DD71D033436001BA592 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DD61D033436001BA592 /* Calendar.swift */; };
 		665A9DD81D033436001BA592 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DD61D033436001BA592 /* Calendar.swift */; };
-		665A9DDA1D033440001BA592 /* CalendarDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DD91D033440001BA592 /* CalendarDate.swift */; };
 		665A9DDB1D033440001BA592 /* CalendarDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DD91D033440001BA592 /* CalendarDate.swift */; };
-		665A9DDD1D033449001BA592 /* FareAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DDC1D033449001BA592 /* FareAttribute.swift */; };
 		665A9DDE1D033449001BA592 /* FareAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DDC1D033449001BA592 /* FareAttribute.swift */; };
-		665A9DE01D03344F001BA592 /* FareRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DDF1D03344F001BA592 /* FareRule.swift */; };
 		665A9DE11D03344F001BA592 /* FareRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DDF1D03344F001BA592 /* FareRule.swift */; };
-		665A9DE31D033456001BA592 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DE21D033456001BA592 /* Route.swift */; };
 		665A9DE41D033456001BA592 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DE21D033456001BA592 /* Route.swift */; };
-		665A9DE61D03345C001BA592 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DE51D03345C001BA592 /* Shape.swift */; };
 		665A9DE71D03345C001BA592 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DE51D03345C001BA592 /* Shape.swift */; };
-		665A9DE91D033462001BA592 /* StopTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DE81D033462001BA592 /* StopTime.swift */; };
 		665A9DEA1D033462001BA592 /* StopTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DE81D033462001BA592 /* StopTime.swift */; };
-		665A9DEC1D033468001BA592 /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DEB1D033468001BA592 /* Stop.swift */; };
 		665A9DED1D033468001BA592 /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DEB1D033468001BA592 /* Stop.swift */; };
-		665A9DEF1D03346D001BA592 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DEE1D03346D001BA592 /* Trip.swift */; };
 		665A9DF01D03346D001BA592 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DEE1D03346D001BA592 /* Trip.swift */; };
+		665A9DF61D033C9C001BA592 /* StopRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DF51D033C9C001BA592 /* StopRepository.swift */; };
+		665A9DFA1D033CE2001BA592 /* DatabaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DF81D033CE2001BA592 /* DatabaseHandler.swift */; };
+		665A9DFC1D0348B2001BA592 /* indyGoData.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 665A9DFB1D0348B2001BA592 /* indyGoData.sqlite */; };
+		665A9DFD1D0348B2001BA592 /* indyGoData.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 665A9DFB1D0348B2001BA592 /* indyGoData.sqlite */; };
 		AD2C9BE617ADAFDB5D293524 /* Pods_indytransitkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B1F447F7E8B3515A74DB8F /* Pods_indytransitkit.framework */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +81,9 @@
 		665A9DE81D033462001BA592 /* StopTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopTime.swift; sourceTree = "<group>"; };
 		665A9DEB1D033468001BA592 /* Stop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
 		665A9DEE1D03346D001BA592 /* Trip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		665A9DF51D033C9C001BA592 /* StopRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopRepository.swift; sourceTree = "<group>"; };
+		665A9DF81D033CE2001BA592 /* DatabaseHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseHandler.swift; sourceTree = "<group>"; };
+		665A9DFB1D0348B2001BA592 /* indyGoData.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = indyGoData.sqlite; sourceTree = "<group>"; };
 		6E7874024E7D7D58CA240602 /* Pods-indytransitkit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-indytransitkit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-indytransitkit/Pods-indytransitkit.debug.xcconfig"; sourceTree = "<group>"; };
 		739E10EDC2B1EA71F4A673C0 /* Pods-indycivichackathon2016.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-indycivichackathon2016.debug.xcconfig"; path = "Pods/Target Support Files/Pods-indycivichackathon2016/Pods-indycivichackathon2016.debug.xcconfig"; sourceTree = "<group>"; };
 		B44B5BEE8E268B5D8F044A94 /* Pods-indytransitkit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-indytransitkit.release.xcconfig"; path = "Pods/Target Support Files/Pods-indytransitkit/Pods-indytransitkit.release.xcconfig"; sourceTree = "<group>"; };
@@ -197,8 +194,10 @@
 		665A9DCC1D03335B001BA592 /* IndyGo */ = {
 			isa = PBXGroup;
 			children = (
+				665A9DF71D033CD3001BA592 /* Handler */,
 				665A9DCD1D033398001BA592 /* Model */,
 				665A9DCE1D03339C001BA592 /* Repository */,
+				665A9DF11D033C4F001BA592 /* Supporting Files */,
 			);
 			name = IndyGo;
 			sourceTree = "<group>";
@@ -223,6 +222,7 @@
 		665A9DCE1D03339C001BA592 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				665A9DF51D033C9C001BA592 /* StopRepository.swift */,
 			);
 			name = Repository;
 			sourceTree = "<group>";
@@ -259,6 +259,22 @@
 			);
 			name = "Supporting Files";
 			path = ..;
+			sourceTree = "<group>";
+		};
+		665A9DF11D033C4F001BA592 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				665A9DFB1D0348B2001BA592 /* indyGoData.sqlite */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		665A9DF71D033CD3001BA592 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				665A9DF81D033CE2001BA592 /* DatabaseHandler.swift */,
+			);
+			name = Handler;
 			sourceTree = "<group>";
 		};
 		D13FEC11F1E11D5527DCB176 /* Frameworks */ = {
@@ -369,6 +385,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				665A9DAE1D032CBB001BA592 /* LaunchScreen.storyboard in Resources */,
+				665A9DFC1D0348B2001BA592 /* indyGoData.sqlite in Resources */,
 				665A9DAB1D032CBB001BA592 /* Assets.xcassets in Resources */,
 				665A9DA91D032CBB001BA592 /* Main.storyboard in Resources */,
 			);
@@ -378,6 +395,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				665A9DFD1D0348B2001BA592 /* indyGoData.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,18 +484,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				665A9DEF1D03346D001BA592 /* Trip.swift in Sources */,
 				665A9DA61D032CBB001BA592 /* ViewController.swift in Sources */,
-				665A9DD41D033425001BA592 /* Agency.swift in Sources */,
-				665A9DE01D03344F001BA592 /* FareRule.swift in Sources */,
-				665A9DDD1D033449001BA592 /* FareAttribute.swift in Sources */,
-				665A9DE61D03345C001BA592 /* Shape.swift in Sources */,
-				665A9DDA1D033440001BA592 /* CalendarDate.swift in Sources */,
-				665A9DE91D033462001BA592 /* StopTime.swift in Sources */,
-				665A9DEC1D033468001BA592 /* Stop.swift in Sources */,
-				665A9DE31D033456001BA592 /* Route.swift in Sources */,
 				665A9DA41D032CBB001BA592 /* AppDelegate.swift in Sources */,
-				665A9DD71D033436001BA592 /* Calendar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,10 +498,12 @@
 				665A9DDB1D033440001BA592 /* CalendarDate.swift in Sources */,
 				665A9DDE1D033449001BA592 /* FareAttribute.swift in Sources */,
 				665A9DD81D033436001BA592 /* Calendar.swift in Sources */,
+				665A9DF61D033C9C001BA592 /* StopRepository.swift in Sources */,
 				665A9DC81D033249001BA592 /* TestModel.swift in Sources */,
 				665A9DE41D033456001BA592 /* Route.swift in Sources */,
 				665A9DEA1D033462001BA592 /* StopTime.swift in Sources */,
 				665A9DED1D033468001BA592 /* Stop.swift in Sources */,
+				665A9DFA1D033CE2001BA592 /* DatabaseHandler.swift in Sources */,
 				665A9DE11D03344F001BA592 /* FareRule.swift in Sources */,
 				665A9DE71D03345C001BA592 /* Shape.swift in Sources */,
 			);
