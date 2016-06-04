@@ -9,7 +9,7 @@
 import Foundation
 
 public struct StationStatus {
-    public var station_id = -1
+    public var station_id = "ERROR"
     public var num_bikes_available = -1
     public var num_bikes_disabled = -1
     public var num_docks_available = -1

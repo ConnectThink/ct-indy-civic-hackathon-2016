@@ -10,6 +10,12 @@
 		420C28FD1D0348E40028E33D /* StationInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C28FC1D0348E40028E33D /* StationInformation.swift */; };
 		420C28FF1D0348F00028E33D /* StationStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C28FE1D0348F00028E33D /* StationStatus.swift */; };
 		420C29011D034AB40028E33D /* RentalMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C29001D034AB40028E33D /* RentalMethod.swift */; };
+		420C29031D034E740028E33D /* SystemInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C29021D034E740028E33D /* SystemInformation.swift */; };
+		420C29071D03507C0028E33D /* StationInformationCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C29061D03507C0028E33D /* StationInformationCollection.swift */; };
+		420C29091D03509B0028E33D /* SystemInformationCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C29081D03509B0028E33D /* SystemInformationCollection.swift */; };
+		420C290B1D0350D30028E33D /* StationStatusCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C290A1D0350D30028E33D /* StationStatusCollection.swift */; };
+		420C290D1D03513F0028E33D /* StationStatusResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C290C1D03513F0028E33D /* StationStatusResult.swift */; };
+		420C290F1D0352670028E33D /* StationInformationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C290E1D0352670028E33D /* StationInformationResult.swift */; };
 		4BAC2F4AD7294C55804BAA77 /* Pods_indycivichackathon2016.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1299BC762099538EBD8D2BE /* Pods_indycivichackathon2016.framework */; };
 		665A9DA41D032CBB001BA592 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DA31D032CBB001BA592 /* AppDelegate.swift */; };
 		665A9DA61D032CBB001BA592 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DA51D032CBB001BA592 /* ViewController.swift */; };
@@ -71,6 +77,12 @@
 		420C28FC1D0348E40028E33D /* StationInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationInformation.swift; sourceTree = "<group>"; };
 		420C28FE1D0348F00028E33D /* StationStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationStatus.swift; sourceTree = "<group>"; };
 		420C29001D034AB40028E33D /* RentalMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RentalMethod.swift; sourceTree = "<group>"; };
+		420C29021D034E740028E33D /* SystemInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemInformation.swift; sourceTree = "<group>"; };
+		420C29061D03507C0028E33D /* StationInformationCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationInformationCollection.swift; sourceTree = "<group>"; };
+		420C29081D03509B0028E33D /* SystemInformationCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemInformationCollection.swift; sourceTree = "<group>"; };
+		420C290A1D0350D30028E33D /* StationStatusCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationStatusCollection.swift; sourceTree = "<group>"; };
+		420C290C1D03513F0028E33D /* StationStatusResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationStatusResult.swift; sourceTree = "<group>"; };
+		420C290E1D0352670028E33D /* StationInformationResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationInformationResult.swift; sourceTree = "<group>"; };
 		665A9DA01D032CBB001BA592 /* indycivichackathon2016.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = indycivichackathon2016.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		665A9DA31D032CBB001BA592 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		665A9DA51D032CBB001BA592 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -180,6 +192,12 @@
 				420C28FC1D0348E40028E33D /* StationInformation.swift */,
 				420C28FE1D0348F00028E33D /* StationStatus.swift */,
 				420C29001D034AB40028E33D /* RentalMethod.swift */,
+				420C29021D034E740028E33D /* SystemInformation.swift */,
+				420C29061D03507C0028E33D /* StationInformationCollection.swift */,
+				420C29081D03509B0028E33D /* SystemInformationCollection.swift */,
+				420C290A1D0350D30028E33D /* StationStatusCollection.swift */,
+				420C290C1D03513F0028E33D /* StationStatusResult.swift */,
+				420C290E1D0352670028E33D /* StationInformationResult.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -493,6 +511,7 @@
 			files = (
 				665A9DF01D03346D001BA592 /* Trip.swift in Sources */,
 				665A9DD51D033425001BA592 /* Agency.swift in Sources */,
+				420C290F1D0352670028E33D /* StationInformationResult.swift in Sources */,
 				665A9DDB1D033440001BA592 /* CalendarDate.swift in Sources */,
 				665A9DDE1D033449001BA592 /* FareAttribute.swift in Sources */,
 				665A9DD81D033436001BA592 /* Calendar.swift in Sources */,
@@ -500,10 +519,15 @@
 				420C28FD1D0348E40028E33D /* StationInformation.swift in Sources */,
 				420C28FF1D0348F00028E33D /* StationStatus.swift in Sources */,
 				665A9DEA1D033462001BA592 /* StopTime.swift in Sources */,
+				420C29091D03509B0028E33D /* SystemInformationCollection.swift in Sources */,
+				420C290B1D0350D30028E33D /* StationStatusCollection.swift in Sources */,
+				420C29031D034E740028E33D /* SystemInformation.swift in Sources */,
 				665A9DED1D033468001BA592 /* Stop.swift in Sources */,
+				420C29071D03507C0028E33D /* StationInformationCollection.swift in Sources */,
 				665A9DE11D03344F001BA592 /* FareRule.swift in Sources */,
 				420C29011D034AB40028E33D /* RentalMethod.swift in Sources */,
 				665A9DE71D03345C001BA592 /* Shape.swift in Sources */,
+				420C290D1D03513F0028E33D /* StationStatusResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
