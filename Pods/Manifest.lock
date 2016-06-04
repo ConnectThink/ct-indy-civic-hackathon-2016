@@ -1,0 +1,15 @@
+PODS:
+  - ObjectMapper (1.3.0)
+  - SQLite.swift (0.10.1)
+
+DEPENDENCIES:
+  - ObjectMapper (~> 1.3)
+  - SQLite.swift (~> 0.10)
+
+SPEC CHECKSUMS:
+  ObjectMapper: 4eb08a726e9791a93b2632049951b56a7c17e471
+  SQLite.swift: 6a6e4b034efc317ce4e203b6af2d3024fee2b570
+
+PODFILE CHECKSUM: 7589fb4daa7b5351497e5a67465a6d84f27eec4e
+
+COCOAPODS: 1.0.1

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BAC2F4AD7294C55804BAA77 /* Pods_indycivichackathon2016.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1299BC762099538EBD8D2BE /* Pods_indycivichackathon2016.framework */; };
 		665A9DA41D032CBB001BA592 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DA31D032CBB001BA592 /* AppDelegate.swift */; };
 		665A9DA61D032CBB001BA592 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DA51D032CBB001BA592 /* ViewController.swift */; };
 		665A9DA91D032CBB001BA592 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665A9DA71D032CBB001BA592 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00F46C310933821C19F96DC8 /* Pods-indycivichackathon2016.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-indycivichackathon2016.release.xcconfig"; path = "Pods/Target Support Files/Pods-indycivichackathon2016/Pods-indycivichackathon2016.release.xcconfig"; sourceTree = "<group>"; };
 		665A9DA01D032CBB001BA592 /* indycivichackathon2016.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = indycivichackathon2016.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		665A9DA31D032CBB001BA592 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		665A9DA51D032CBB001BA592 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		665A9DAA1D032CBB001BA592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		665A9DAD1D032CBB001BA592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		665A9DAF1D032CBB001BA592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		739E10EDC2B1EA71F4A673C0 /* Pods-indycivichackathon2016.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-indycivichackathon2016.debug.xcconfig"; path = "Pods/Target Support Files/Pods-indycivichackathon2016/Pods-indycivichackathon2016.debug.xcconfig"; sourceTree = "<group>"; };
+		F1299BC762099538EBD8D2BE /* Pods_indycivichackathon2016.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_indycivichackathon2016.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BAC2F4AD7294C55804BAA77 /* Pods_indycivichackathon2016.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53624467A546A71BEDD36E1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				739E10EDC2B1EA71F4A673C0 /* Pods-indycivichackathon2016.debug.xcconfig */,
+				00F46C310933821C19F96DC8 /* Pods-indycivichackathon2016.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		665A9D971D032CBB001BA592 = {
 			isa = PBXGroup;
 			children = (
 				665A9DA21D032CBB001BA592 /* indycivichackathon2016 */,
 				665A9DA11D032CBB001BA592 /* Products */,
+				53624467A546A71BEDD36E1E /* Pods */,
+				D13FEC11F1E11D5527DCB176 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +80,14 @@
 			path = indycivichackathon2016;
 			sourceTree = "<group>";
 		};
+		D13FEC11F1E11D5527DCB176 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1299BC762099538EBD8D2BE /* Pods_indycivichackathon2016.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 665A9DB21D032CBB001BA592 /* Build configuration list for PBXNativeTarget "indycivichackathon2016" */;
 			buildPhases = (
+				26089B13003EC67AE615CFB3 /* [CP] Check Pods Manifest.lock */,
 				665A9D9C1D032CBB001BA592 /* Sources */,
 				665A9D9D1D032CBB001BA592 /* Frameworks */,
 				665A9D9E1D032CBB001BA592 /* Resources */,
+				497FF8882FFDE280CED5CCC7 /* [CP] Embed Pods Frameworks */,
+				FA7006B5F753093015968A51 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +156,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26089B13003EC67AE615CFB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		497FF8882FFDE280CED5CCC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-indycivichackathon2016/Pods-indycivichackathon2016-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA7006B5F753093015968A51 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-indycivichackathon2016/Pods-indycivichackathon2016-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		665A9D9C1D032CBB001BA592 /* Sources */ = {
@@ -247,6 +322,7 @@
 		};
 		665A9DB31D032CBB001BA592 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 739E10EDC2B1EA71F4A673C0 /* Pods-indycivichackathon2016.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = indycivichackathon2016/Info.plist;
@@ -258,6 +334,7 @@
 		};
 		665A9DB41D032CBB001BA592 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00F46C310933821C19F96DC8 /* Pods-indycivichackathon2016.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = indycivichackathon2016/Info.plist;
@@ -286,6 +363,7 @@
 				665A9DB41D032CBB001BA592 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
