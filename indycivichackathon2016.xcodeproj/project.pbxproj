@@ -25,8 +25,7 @@
 		665A9DBD1D033157001BA592 /* indytransitkit.h in Headers */ = {isa = PBXBuildFile; fileRef = 665A9DBC1D033157001BA592 /* indytransitkit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		665A9DC11D033157001BA592 /* indytransitkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665A9DBA1D033157001BA592 /* indytransitkit.framework */; };
 		665A9DC21D033157001BA592 /* indytransitkit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 665A9DBA1D033157001BA592 /* indytransitkit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		665A9DC81D033249001BA592 /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DC71D033249001BA592 /* TestModel.swift */; };
-		665A9DD41D033425001BA592 /* Agency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DD31D033425001BA592 /* Agency.swift */; };
+		665A9DC81D033249001BA592 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		665A9DD51D033425001BA592 /* Agency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DD31D033425001BA592 /* Agency.swift */; };
 		665A9DD81D033436001BA592 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DD61D033436001BA592 /* Calendar.swift */; };
 		665A9DDB1D033440001BA592 /* CalendarDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DD91D033440001BA592 /* CalendarDate.swift */; };
@@ -41,6 +40,9 @@
 		665A9DFA1D033CE2001BA592 /* DatabaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DF81D033CE2001BA592 /* DatabaseHandler.swift */; };
 		665A9DFC1D0348B2001BA592 /* indyGoData.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 665A9DFB1D0348B2001BA592 /* indyGoData.sqlite */; };
 		665A9DFD1D0348B2001BA592 /* indyGoData.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 665A9DFB1D0348B2001BA592 /* indyGoData.sqlite */; };
+		665A9DFF1D0357C4001BA592 /* BaseWebRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DFE1D0357C4001BA592 /* BaseWebRequest.swift */; };
+		665A9E021D0358FA001BA592 /* ExampleWebRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9E001D0358FA001BA592 /* ExampleWebRequest.swift */; };
+		665A9E051D035960001BA592 /* WebRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9E041D035960001BA592 /* WebRepository.swift */; };
 		AD2C9BE617ADAFDB5D293524 /* Pods_indytransitkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B1F447F7E8B3515A74DB8F /* Pods_indytransitkit.framework */; };
 /* End PBXBuildFile section */
 
@@ -102,6 +104,9 @@
 		665A9DF51D033C9C001BA592 /* StopRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopRepository.swift; sourceTree = "<group>"; };
 		665A9DF81D033CE2001BA592 /* DatabaseHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseHandler.swift; sourceTree = "<group>"; };
 		665A9DFB1D0348B2001BA592 /* indyGoData.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = indyGoData.sqlite; sourceTree = "<group>"; };
+		665A9DFE1D0357C4001BA592 /* BaseWebRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseWebRequest.swift; sourceTree = "<group>"; };
+		665A9E001D0358FA001BA592 /* ExampleWebRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleWebRequest.swift; sourceTree = "<group>"; };
+		665A9E041D035960001BA592 /* WebRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebRepository.swift; sourceTree = "<group>"; };
 		6E7874024E7D7D58CA240602 /* Pods-indytransitkit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-indytransitkit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-indytransitkit/Pods-indytransitkit.debug.xcconfig"; sourceTree = "<group>"; };
 		739E10EDC2B1EA71F4A673C0 /* Pods-indycivichackathon2016.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-indycivichackathon2016.debug.xcconfig"; path = "Pods/Target Support Files/Pods-indycivichackathon2016/Pods-indycivichackathon2016.debug.xcconfig"; sourceTree = "<group>"; };
 		B44B5BEE8E268B5D8F044A94 /* Pods-indytransitkit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-indytransitkit.release.xcconfig"; path = "Pods/Target Support Files/Pods-indytransitkit/Pods-indytransitkit.release.xcconfig"; sourceTree = "<group>"; };
@@ -204,6 +209,9 @@
 		665A9DCA1D03332E001BA592 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				665A9E041D035960001BA592 /* WebRepository.swift */,
+				665A9DFE1D0357C4001BA592 /* BaseWebRequest.swift */,
+				665A9E001D0358FA001BA592 /* ExampleWebRequest.swift */,
 			);
 			name = Repository;
 			sourceTree = "<group>";
@@ -526,18 +534,21 @@
 				665A9DDE1D033449001BA592 /* FareAttribute.swift in Sources */,
 				665A9DD81D033436001BA592 /* Calendar.swift in Sources */,
 				665A9DF61D033C9C001BA592 /* StopRepository.swift in Sources */,
-				665A9DC81D033249001BA592 /* TestModel.swift in Sources */,
+				665A9DC81D033249001BA592 /* (null) in Sources */,
 				665A9DE41D033456001BA592 /* Route.swift in Sources */,
 				420C28FD1D0348E40028E33D /* StationInformation.swift in Sources */,
 				420C28FF1D0348F00028E33D /* StationStatus.swift in Sources */,
 				665A9DEA1D033462001BA592 /* StopTime.swift in Sources */,
 				420C29091D03509B0028E33D /* SystemInformationCollection.swift in Sources */,
+				665A9E021D0358FA001BA592 /* ExampleWebRequest.swift in Sources */,
 				420C290B1D0350D30028E33D /* StationStatusCollection.swift in Sources */,
 				420C29031D034E740028E33D /* SystemInformation.swift in Sources */,
 				665A9DED1D033468001BA592 /* Stop.swift in Sources */,
 				420C29071D03507C0028E33D /* StationInformationCollection.swift in Sources */,
 				665A9DFA1D033CE2001BA592 /* DatabaseHandler.swift in Sources */,
 				665A9DE11D03344F001BA592 /* FareRule.swift in Sources */,
+				665A9DFF1D0357C4001BA592 /* BaseWebRequest.swift in Sources */,
+				665A9E051D035960001BA592 /* WebRepository.swift in Sources */,
 				420C29011D034AB40028E33D /* RentalMethod.swift in Sources */,
 				665A9DE71D03345C001BA592 /* Shape.swift in Sources */,
 				420C290D1D03513F0028E33D /* StationStatusResult.swift in Sources */,
