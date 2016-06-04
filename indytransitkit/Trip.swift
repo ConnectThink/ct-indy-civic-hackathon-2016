@@ -7,3 +7,13 @@
 //
 
 import Foundation
+
+public struct Trip {
+    public var blockId = "ERROR"
+    public var routeId = "ERROR"
+    public var directionId = -1
+    public var tripHeadsign = "ERROR"
+    public var serviceId = "ERROR"
+    public var tripId = "ERROR"
+    public var shapeId = "ERROR"
+}

@@ -25,8 +25,8 @@
 		665A9DDB1D033440001BA592 /* CalendarDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DD91D033440001BA592 /* CalendarDate.swift */; };
 		665A9DDD1D033449001BA592 /* FareAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DDC1D033449001BA592 /* FareAttribute.swift */; };
 		665A9DDE1D033449001BA592 /* FareAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DDC1D033449001BA592 /* FareAttribute.swift */; };
-		665A9DE01D03344F001BA592 /* FareRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DDF1D03344F001BA592 /* FareRules.swift */; };
-		665A9DE11D03344F001BA592 /* FareRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DDF1D03344F001BA592 /* FareRules.swift */; };
+		665A9DE01D03344F001BA592 /* FareRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DDF1D03344F001BA592 /* FareRule.swift */; };
+		665A9DE11D03344F001BA592 /* FareRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DDF1D03344F001BA592 /* FareRule.swift */; };
 		665A9DE31D033456001BA592 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DE21D033456001BA592 /* Route.swift */; };
 		665A9DE41D033456001BA592 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DE21D033456001BA592 /* Route.swift */; };
 		665A9DE61D03345C001BA592 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A9DE51D03345C001BA592 /* Shape.swift */; };
@@ -81,7 +81,7 @@
 		665A9DD61D033436001BA592 /* Calendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
 		665A9DD91D033440001BA592 /* CalendarDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarDate.swift; sourceTree = "<group>"; };
 		665A9DDC1D033449001BA592 /* FareAttribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FareAttribute.swift; sourceTree = "<group>"; };
-		665A9DDF1D03344F001BA592 /* FareRules.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FareRules.swift; sourceTree = "<group>"; };
+		665A9DDF1D03344F001BA592 /* FareRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FareRule.swift; sourceTree = "<group>"; };
 		665A9DE21D033456001BA592 /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
 		665A9DE51D03345C001BA592 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		665A9DE81D033462001BA592 /* StopTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopTime.swift; sourceTree = "<group>"; };
@@ -210,7 +210,7 @@
 				665A9DD61D033436001BA592 /* Calendar.swift */,
 				665A9DD91D033440001BA592 /* CalendarDate.swift */,
 				665A9DDC1D033449001BA592 /* FareAttribute.swift */,
-				665A9DDF1D03344F001BA592 /* FareRules.swift */,
+				665A9DDF1D03344F001BA592 /* FareRule.swift */,
 				665A9DE21D033456001BA592 /* Route.swift */,
 				665A9DE51D03345C001BA592 /* Shape.swift */,
 				665A9DE81D033462001BA592 /* StopTime.swift */,
@@ -469,7 +469,7 @@
 				665A9DEF1D03346D001BA592 /* Trip.swift in Sources */,
 				665A9DA61D032CBB001BA592 /* ViewController.swift in Sources */,
 				665A9DD41D033425001BA592 /* Agency.swift in Sources */,
-				665A9DE01D03344F001BA592 /* FareRules.swift in Sources */,
+				665A9DE01D03344F001BA592 /* FareRule.swift in Sources */,
 				665A9DDD1D033449001BA592 /* FareAttribute.swift in Sources */,
 				665A9DE61D03345C001BA592 /* Shape.swift in Sources */,
 				665A9DDA1D033440001BA592 /* CalendarDate.swift in Sources */,
@@ -494,7 +494,7 @@
 				665A9DE41D033456001BA592 /* Route.swift in Sources */,
 				665A9DEA1D033462001BA592 /* StopTime.swift in Sources */,
 				665A9DED1D033468001BA592 /* Stop.swift in Sources */,
-				665A9DE11D03344F001BA592 /* FareRules.swift in Sources */,
+				665A9DE11D03344F001BA592 /* FareRule.swift in Sources */,
 				665A9DE71D03345C001BA592 /* Shape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

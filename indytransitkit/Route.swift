@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+public struct Route {
+    public var routeLongName = "ERROR"
+    public var routeType = -1
+    public var agencyId = "ERROR"
+    public var routeId = -1
+    public var routeShortName = "ERROR"
+}

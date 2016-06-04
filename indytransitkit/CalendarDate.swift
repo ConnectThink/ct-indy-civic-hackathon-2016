@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+public struct CalendarDate {
+    public var serviceId = "ERROR"
+    public var date = NSDate.timeIntervalSinceReferenceDate()
+    public var exceptionType = -1
+}
