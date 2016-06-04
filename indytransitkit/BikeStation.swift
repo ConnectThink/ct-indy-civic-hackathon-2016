@@ -14,8 +14,8 @@ public struct BikeStation {
     public var stationName = "ERROR"
     public var address = "ERROR"
     public var numberOfDocks = -1
-    public var latitude = 0
-    public var longitude = 0
+    public var latitude: Double = 0
+    public var longitude: Double = 0
     public var location: {
         return CLLocation(latitude: this.latitude
             longitude: this.longitude);
