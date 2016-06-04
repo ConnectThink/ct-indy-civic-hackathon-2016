@@ -12,8 +12,8 @@ public struct StopTime {
     public var tripId = "ERROR"
     public var arrivalTime = "ERROR"
     public var departureTime = "ERROR"
-    public var stopId = "ERROR"
-    public var stopSequence = -1
+    public var id = "ERROR"
+    public var sequence = -1
     public var isTimepoint = -1
     public var isLaststop = -1
 }
