@@ -7,7 +7,8 @@
 //
 
 import Foundation
+import ObjectMapper
 
-public enum RentalMethod {
+public enum RentalMethod: String {
     case KEY, CREDITCARD ,PAYPASS, APPLEPAY, ANDROIDPAY, TRANSITCARD, ACCOUNTNUMBER, PHONE, UNKNOWN
 }
