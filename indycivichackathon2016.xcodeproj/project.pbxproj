@@ -50,9 +50,9 @@
 		665A9DA31D032CBB001BA592 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		665A9DA51D032CBB001BA592 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		665A9DA81D032CBB001BA592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		665A9DAA1D032CBB001BA592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		665A9DAA1D032CBB001BA592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = indycivichackathon2016/Assets.xcassets; sourceTree = "<group>"; };
 		665A9DAD1D032CBB001BA592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		665A9DAF1D032CBB001BA592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		665A9DAF1D032CBB001BA592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = indycivichackathon2016/Info.plist; sourceTree = "<group>"; };
 		665A9DBA1D033157001BA592 /* indytransitkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = indytransitkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		665A9DBC1D033157001BA592 /* indytransitkit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = indytransitkit.h; sourceTree = "<group>"; };
 		665A9DBE1D033157001BA592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -119,12 +119,11 @@
 		665A9DA21D032CBB001BA592 /* indytransitapp */ = {
 			isa = PBXGroup;
 			children = (
+				665A9DD11D0333B1001BA592 /* Controller */,
+				665A9DCF1D0333AA001BA592 /* Model */,
+				665A9DD01D0333AD001BA592 /* View */,
+				665A9DD21D0333B6001BA592 /* Supporting Files */,
 				665A9DA31D032CBB001BA592 /* AppDelegate.swift */,
-				665A9DA51D032CBB001BA592 /* ViewController.swift */,
-				665A9DA71D032CBB001BA592 /* Main.storyboard */,
-				665A9DAA1D032CBB001BA592 /* Assets.xcassets */,
-				665A9DAC1D032CBB001BA592 /* LaunchScreen.storyboard */,
-				665A9DAF1D032CBB001BA592 /* Info.plist */,
 			);
 			name = indytransitapp;
 			path = indycivichackathon2016;
@@ -168,8 +167,58 @@
 		665A9DCC1D03335B001BA592 /* IndyGo */ = {
 			isa = PBXGroup;
 			children = (
+				665A9DCD1D033398001BA592 /* Model */,
+				665A9DCE1D03339C001BA592 /* Repository */,
 			);
 			name = IndyGo;
+			sourceTree = "<group>";
+		};
+		665A9DCD1D033398001BA592 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		665A9DCE1D03339C001BA592 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Repository;
+			sourceTree = "<group>";
+		};
+		665A9DCF1D0333AA001BA592 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		665A9DD01D0333AD001BA592 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				665A9DA71D032CBB001BA592 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		665A9DD11D0333B1001BA592 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				665A9DA51D032CBB001BA592 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		665A9DD21D0333B6001BA592 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				665A9DAA1D032CBB001BA592 /* Assets.xcassets */,
+				665A9DAC1D032CBB001BA592 /* LaunchScreen.storyboard */,
+				665A9DAF1D032CBB001BA592 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			path = ..;
 			sourceTree = "<group>";
 		};
 		D13FEC11F1E11D5527DCB176 /* Frameworks */ = {
@@ -415,6 +464,7 @@
 				665A9DAD1D032CBB001BA592 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = indycivichackathon2016;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
