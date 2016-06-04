@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+public struct Shape {
+    public var shapeId = "ERROR"
+    public var shapePtLat: Double = -1
+    public var shapePtLon: Double = -1
+    public var shapePtSequence = -1
+    public var shapDistTraveled: Double = -1
+}

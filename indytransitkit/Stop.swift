@@ -7,3 +7,14 @@
 //
 
 import Foundation
+
+public struct Stop {
+    public var stopLat: Double = -1
+    public var zoneId = "ERROR"
+    public var stopLon: Double = -1
+    public var stopId = "ERROR"
+    public var stopDesc = "ERROR"
+    public var stopName = "ERROR"
+    public var locationType = -1
+    public var routes = "ERROR"
+}

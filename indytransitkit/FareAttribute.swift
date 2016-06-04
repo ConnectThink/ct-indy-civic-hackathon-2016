@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+public struct FareAttribute {
+    public var fareId = "ERROR"
+    public var price: Float = -1
+    public var currencyType = "ERROR"
+    public var paymentMethod = -1
+    public var transfers = -1
+    public var transferDuration = -1
+}
