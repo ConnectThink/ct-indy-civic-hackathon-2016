@@ -9,5 +9,5 @@
 import Foundation
 
 public class StationStatusResult {
-    public var stations: [StationStatus]()
+    public var stations = [StationStatus]()
 }

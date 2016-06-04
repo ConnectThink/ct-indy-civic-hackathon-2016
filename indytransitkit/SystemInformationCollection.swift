@@ -10,6 +10,10 @@ import Foundation
 
 public class SystemInformationCollection {
     public var total = 0
-    public var data: SystemInformation()
+    public var data = SystemInformation()
     public var lastUpdated = "ERROR"
+    
+    public init() {
+        
+    }
 }

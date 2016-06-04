@@ -10,6 +10,10 @@ import Foundation
 
 public class StationInformationCollection {
     public var total = 0
-    public var data: StationInformationResult()
+    public var data = StationInformationResult()
     public var lastUpdated = "ERROR"
+    
+    public init() {
+        
+    }
 }

@@ -8,10 +8,10 @@
 
 import Foundation
 
-public var SystemInformation {
+public struct SystemInformation {
     public var system_id =  "ERROR"
     public var name = "ERROR"
-    public var language "ERROR"
+    public var language =  "ERROR"
     public var url = "ERROR"
     public var phone_number = "ERROR"
     public var email = "ERROR"

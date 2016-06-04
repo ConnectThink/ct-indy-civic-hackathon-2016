@@ -11,5 +11,9 @@ import Foundation
 public class StationStatusCollection {
     public var lastUpdated = 0
     public var total = 0
-    public var data: StationStatusResult()
+    public var data = StationStatusResult()
+    
+    public init() {
+        
+    }
 }
