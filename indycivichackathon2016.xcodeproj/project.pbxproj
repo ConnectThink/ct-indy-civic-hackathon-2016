@@ -133,11 +133,43 @@
 		665A9DBB1D033157001BA592 /* indytransitkit */ = {
 			isa = PBXGroup;
 			children = (
+				665A9DCC1D03335B001BA592 /* IndyGo */,
+				665A9DCB1D03334C001BA592 /* Pacers Bike Share */,
 				665A9DBC1D033157001BA592 /* indytransitkit.h */,
 				665A9DBE1D033157001BA592 /* Info.plist */,
-				665A9DC71D033249001BA592 /* TestModel.swift */,
 			);
 			path = indytransitkit;
+			sourceTree = "<group>";
+		};
+		665A9DC91D03332A001BA592 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				665A9DC71D033249001BA592 /* TestModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		665A9DCA1D03332E001BA592 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Repository;
+			sourceTree = "<group>";
+		};
+		665A9DCB1D03334C001BA592 /* Pacers Bike Share */ = {
+			isa = PBXGroup;
+			children = (
+				665A9DC91D03332A001BA592 /* Model */,
+				665A9DCA1D03332E001BA592 /* Repository */,
+			);
+			name = "Pacers Bike Share";
+			sourceTree = "<group>";
+		};
+		665A9DCC1D03335B001BA592 /* IndyGo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = IndyGo;
 			sourceTree = "<group>";
 		};
 		D13FEC11F1E11D5527DCB176 /* Frameworks */ = {
